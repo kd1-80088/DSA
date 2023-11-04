@@ -110,7 +110,6 @@ public class SinglyLinearLinkedList {
 		Node trav = head;
 		while (trav != null) {
 			System.out.println(" " + trav.data);
-			// System.out.println(" tail==" + tail.data);
 			trav = trav.next;
 		}
 		System.out.println();
