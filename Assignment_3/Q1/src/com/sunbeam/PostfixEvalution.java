@@ -2,7 +2,7 @@ package com.sunbeam;
 
 import java.util.Arrays;
 
-public class Postfix {
+public class PostfixEvalution {
 	public static int calculate(int op1, String ele, int op2) {
 
 		switch (ele) {
