@@ -1,7 +1,5 @@
 package com.sunbeam;
 
-import com.sunbeam.LinkedList.Node;
-
 public class LinkedList {
 	class Node {
 		private int data;
@@ -138,6 +136,18 @@ public class LinkedList {
 			}
 
 		}
+	}
+
+	public int getMax() {
+		Node trav = head;
+		while (trav.next != null) {
+			trav = trav.next;
+		}
+		return trav.data;
+	}
+
+	public int getMin() {
+		return head.data;
 	}
 
 }
